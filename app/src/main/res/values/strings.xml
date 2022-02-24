@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Bakulan Sayur</string>
+    <string name="google_maps_key">YOUR API KEY</string>
+    <string name="subtitle">Admin bakuan sayur</string>
+    <string name="themetitle">Bakulansayur</string>
+
+</resources>
