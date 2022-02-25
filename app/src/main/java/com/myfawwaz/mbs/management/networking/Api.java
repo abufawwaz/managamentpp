@@ -7,7 +7,7 @@ package com.myfawwaz.mbs.management.networking;
 
 public class Api {
 
-    //API by BACHORS
+    //API error
     public static String URL_LIST_SURAH =  "https://www.bakulansayur.com/apicart/showorder.php?app=mobile";//"https://api.npoint.io/99c279bb173a6e28359c/data";
     public static String URL_LIST_ORDERAN = "https://www.bakulansayur.com/apicart/showorder.php?app=";
 
