@@ -55,7 +55,7 @@
                 android:layout_margin="10dp"
                 android:orientation="vertical">
 
-                <com.myfawwaz.bakulan_android.sayur.datepicker.DatePickerTimeline
+                <com.myfawwaz.mbs.management.datepicker.DatePickerTimeline
                     android:id="@+id/dateTimeline"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"

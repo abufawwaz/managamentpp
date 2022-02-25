@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.myfawwaz.bakulan_android.sayur">
+    package="com.myfawwaz.mbs.management">
 
     <uses-permission android:name="android.permission.BLUETOOTH" />
     <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
@@ -17,12 +17,12 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme"
         android:usesCleartextTraffic="true">
-        <activity android:name="com.myfawwaz.bakulan_android.sayur.activities.MasjidActivity" />
-        <activity android:name="com.myfawwaz.bakulan_android.sayur.activities.PrintActivity" />
+        <activity android:name="com.myfawwaz.mbs.management.activities.MasjidActivity" />
+        <activity android:name="com.myfawwaz.mbs.management.activities.PrintActivity" />
 
-        <activity android:name="com.myfawwaz.bakulan_android.sayur.activities.loadwebview" />
-        <activity android:name="com.myfawwaz.bakulan_android.sayur.activities.DeviceBlue" />
-        <activity android:name="com.myfawwaz.bakulan_android.sayur.activities.ListSurahActivity">
+        <activity android:name="com.myfawwaz.mbs.management.activities.loadwebview" />
+        <activity android:name="com.myfawwaz.mbs.management.activities.DeviceBlue" />
+        <activity android:name="com.myfawwaz.mbs.management.activities.ListSurahActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -37,7 +37,7 @@
             android:name="com.google.android.geo.API_KEY"
             android:value="@string/google_maps_key" />
         <service
-            android:name="com.myfawwaz.bakulan_android.sayur.utils.GetAddressIntentService"
+            android:name="com.myfawwaz.mbs.management.utils.GetAddressIntentService"
             android:exported="false" />
     </application>
 
