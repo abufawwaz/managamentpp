@@ -4,6 +4,7 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="app/src/main/res/layout/activity_detail_surah.xml" value="0.19384057971014493" />
+        <entry key="app/src/main/res/layout/activity_json.xml" value="0.1" />
         <entry key="app/src/main/res/layout/activity_list_order.xml" value="0.1328125" />
       </map>
     </option>

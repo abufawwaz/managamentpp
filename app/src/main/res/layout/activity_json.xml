@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+     android:orientation="vertical"
+    >
+
+
+
+    <TextView
+        android:id="@+id/tvIsConnected"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="#FF0000"
+        android:textColor="#FFF"
+        android:textSize="18dp"
+        android:padding="5dp"
+        android:layout_marginBottom="5dp"
+        android:text="is connected? " />
+
+       <EditText
+            android:id="@+id/etName"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:hint="Name..."/>
+         <EditText
+            android:id="@+id/etCountry"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:hint="Country..."/>
+
+
+        <EditText
+            android:id="@+id/etTwitter"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:hint="Twitter..."/>
+
+    <Button
+        android:id="@+id/btnSend"
+        android:text="Send"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:onClick="send"/>
+
+    <TextView
+        android:id="@+id/tvResult"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:textColor="#000"
+        android:textSize="18dp"
+        android:padding="5dp"
+        android:layout_marginBottom="5dp"
+        android:text="" />
+</LinearLayout>
