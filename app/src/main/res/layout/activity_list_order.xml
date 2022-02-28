@@ -246,6 +246,6 @@
         android:tint="@android:color/white"
         app:backgroundTint="@color/colorPrimary"
         app:layout_anchor="@+id/navBar"
-        app:srcCompat="@drawable/ic_bklnicon" />
+        app:srcCompat="@drawable/ic_icon" />
 
 </androidx.coordinatorlayout.widget.CoordinatorLayout>

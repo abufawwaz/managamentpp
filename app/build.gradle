@@ -19,7 +19,7 @@ android {
     compileSdkVersion 30
     buildToolsVersion '30.0.3'
     defaultConfig {
-        applicationId "com.myfawwaz.mbs.management"
+        applicationId "com.myfawwaz.mbs"
         minSdkVersion 16
         targetSdkVersion 30
         versionCode 1

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.myfawwaz.mbs.management">
+    package="com.myfawwaz.mbs.kertek">
 
     <uses-permission android:name="android.permission.BLUETOOTH" />
     <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
@@ -11,18 +11,18 @@
 
     <application
         android:allowBackup="true"
-        android:icon="@mipmap/ic_launcher"
+        android:icon="@mipmap/ic_icon"
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme"
         android:usesCleartextTraffic="true">
-        <activity android:name="com.myfawwaz.mbs.management.activities.MasjidActivity" />
-        <activity android:name="com.myfawwaz.mbs.management.activities.PrintActivity" />
+        <activity android:name="com.myfawwaz.mbs.kertek.activities.MasjidActivity" />
+        <activity android:name="com.myfawwaz.mbs.kertek.activities.PrintActivity" />
 
-        <activity android:name="com.myfawwaz.mbs.management.activities.loadwebview" />
-        <activity android:name="com.myfawwaz.mbs.management.activities.DeviceBlue" />
-        <activity android:name="com.myfawwaz.mbs.management.activities.ListSurahActivity">
+        <activity android:name="com.myfawwaz.mbs.kertek.activities.loadwebview" />
+        <activity android:name="com.myfawwaz.mbs.kertek.activities.DeviceBlue" />
+        <activity android:name="com.myfawwaz.mbs.kertek.activities.ListSurahActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -37,7 +37,7 @@
             android:name="com.google.android.geo.API_KEY"
             android:value="@string/google_maps_key" />
         <service
-            android:name="com.myfawwaz.mbs.management.utils.GetAddressIntentService"
+            android:name="com.myfawwaz.mbs.kertek.utils.GetAddressIntentService"
             android:exported="false" />
     </application>
 
